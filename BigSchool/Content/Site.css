@@ -10,7 +10,7 @@
 }
 
 .navbar-inverse {
-    background-color: #d41d50;
+    background-color: #a94442;
     border-color: #fbf6f6;
 }
 
@@ -57,3 +57,60 @@ textarea {
             top: 0;
             left: 70px;
         }
+
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+.course > li .lecture {
+}
+
+.course > li .category {
+    display: block;
+}
+
+.course > li .action {
+    display: none;
+    left: 70px;
+    position: absolute;
+}
+
+.course > li:hover .action {
+    display: block
+}
+
+.search-container {
+    display: inline-block;
+    margin-top: 6px;
+    margin-left: 130px;
+}
+
+input[type=text] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    box-sizing: border-box;
+    width: 400px;
+}
+
+button[type=submit] {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-left: 5px;
+}
+
+    button[type=submit]:hover {
+        background-color: white;
+        color: chocolate;
+        cursor: pointer;
+    }
